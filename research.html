@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zhirong Peng is a Ph.D. candidate at HKUST working on semiconductor device physics, nanoribbon scaling, edge engineering and advanced transistors.">
+  <meta name="author" content="Zhirong Peng">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Zhirong Peng | Semiconductor Device Physics</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <script src="preferences.js"></script><link rel="stylesheet" href="styles.css">
+  <script src="site.config.js" defer></script>
+  <script src="app.js" defer></script>
+  <script src="ribbon-model.js" defer></script><script src="lattice.js" defer></script>
+<link rel="alternate" hreflang="zh-CN" href="zh/research.html"></head>
+<body id="top" data-page="research">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="wordmark" href="index.html" aria-label="Zhirong Peng, home"><span>Zhirong Peng<span class="wordmark-cn" lang="zh-CN">彭治荣</span></span></a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html" data-page-link="about">About me</a>
+        <a href="research.html#top" data-page-link="research" class="is-current" aria-current="page">Research</a>
+        <a href="publications.html" data-page-link="publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cv" data-cv-link href="mailto:zhirong.peng@connect.ust.hk?subject=CV%20request"><span data-cv-label>Request CV</span><span aria-hidden="true">↗</span></a>
+      </nav>
+    <div class="header-tools" aria-label="Display preferences">
+      <a class="language-switch" data-language-page="zh/research.html" href="zh/research.html" hreflang="zh-CN" lang="zh-CN" aria-label="Switch to Chinese" title="切换为中文">中文</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark background" title="Switch to dark background" hidden>
+        <svg class="icon-moon" viewbox="0 0 24 24" aria-hidden="true"><path d="M20.7 13.4A8.8 8.8 0 0 1 10.6 3.3 8.8 8.8 0 1 0 20.7 13.4Z"></path></svg>
+        <svg class="icon-sun" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+      </button>
+    <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav" hidden><span class="menu-label">Menu</span><span aria-hidden="true">+</span></button>
+      </div></div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Semiconductor research · HKUST</p>
+        <h1 id="hero-title">Device physics.<br><em>With an edge.</em></h1>
+        <p class="hero-intro">I’m <strong>Zhirong Peng</strong>, a Ph.D. candidate studying how the smallest details of a material shape the way a transistor works.</p>
+        <p class="hero-description">My work connects atomic edges, quantum transport and device engineering, with experience in both modeling and experiment.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="mailto:zhirong.peng@connect.ust.hk">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-location"><svg viewbox="0 0 20 20" aria-hidden="true"><path d="M15.5 8c0 4.3-5.5 9-5.5 9S4.5 12.3 4.5 8a5.5 5.5 0 1 1 11 0Z"></path><circle cx="10" cy="8" r="1.8"></circle></svg>Hong Kong <span class="text-separator">/</span> Ph.D. expected Jun 2027</p>
+      </div>
+
+      <figure class="lattice-panel" aria-labelledby="lattice-caption">
+        <div class="lattice-topline"><span>01 / A matter of scale</span><span class="corner-cross" aria-hidden="true">+</span></div>
+        <div class="lattice-stage">
+          <span class="lattice-orbit" aria-hidden="true"></span>
+          <img class="lattice-image" id="lattice-fallback" src="assets/ribbon.svg" width="580" height="360" alt="Oblique conceptual nanoribbon lattice with complete armchair boundaries and contrasting interior atoms. W marks the width; both lengthwise ends gradually blur and fade." data-light-src="assets/ribbon.svg" data-dark-src="assets/ribbon-dark.svg">
+          <svg class="lattice-image" id="lattice-animation" viewbox="0 0 580 360" width="580" height="360" role="img" aria-labelledby="lattice-svg-title lattice-svg-description" hidden>
+            <title id="lattice-svg-title">From a 2D nanosheet to a quasi-1D nanoribbon</title>
+            <desc id="lattice-svg-description">An oblique lattice slowly scrolls, narrows and gently zooms in. The complete armchair outlines include the outer dimers and their inward connecting atoms and bonds. W marks the width. Both lengthwise ends gradually blur and fade. Conceptual illustration, not a calculated atomic structure.</desc>
+          </svg>
+        </div>
+        <div class="lattice-controls">
+          <span class="lattice-scale-note"><span>2D Nanosheet</span><span aria-hidden="true">→</span><span>quasi-1D Nanoribbon</span></span>
+          <button class="animation-toggle" id="animation-toggle" type="button" aria-label="Pause width animation" hidden><svg viewbox="0 0 16 16" aria-hidden="true"><path d="M5 3v10M11 3v10"></path></svg><span>Pause</span></button>
+        </div>
+        <figcaption id="lattice-caption"><span id="lattice-message">A closer look at the boundary.</span><span class="diagram-note">Conceptual illustration · not to scale</span></figcaption>
+      </figure>
+    </section>
+
+    <div class="focus-strip container" aria-label="Research at a glance">
+      <div><span class="eyebrow">The question</span><p>How small can a transistor go?</p></div>
+      <div><span class="eyebrow">The approach</span><p>Physics, modeling &amp; experiment</p></div>
+      <div><span class="eyebrow">The direction</span><p>Advanced transistor R&amp;D</p></div>
+    </div>
+
+    <section class="research-section section container" id="research" aria-labelledby="research-title">
+      <div class="section-heading">
+        <div><h2 id="research-title">Small structures.<br><em>Device-level questions.</em></h2></div>
+        <p class="section-intro">What limits a narrower transistor? How can we engineer its edges? I work from the underlying physics toward practical device choices.</p>
+      </div>
+
+      <div class="research-list">
+        <details class="research-item" open>
+          <summary>
+            <span class="project-number">01</span>
+            <div class="project-summary"><span class="eyebrow project-category">Edge engineering</span><h3>Let the environment choose the edge</h3><p>Connecting sulfur conditions, stable terminations and transistor performance.</p></div>
+            <svg class="project-icon" viewbox="0 0 100 70" aria-hidden="true"><path class="icon-muted" d="M12 35h76M30 15v40M50 15v40M70 15v40"></path><path d="m12 35 18-20 20 20 20-20 18 20M12 35l18 20 20-20 20 20 18-20"></path><circle cx="30" cy="15" r="3"></circle><circle cx="70" cy="55" r="3"></circle></svg>
+            <span class="expand-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="project-detail">
+            <div><h4>The question</h4><p>Which atomic edge terminations are preferred under different sulfur conditions, and how do those terminations shape FET operation?</p></div>
+            <div><h4>My contribution</h4><p>Identified thermodynamically preferred terminations and established a framework linking environmental selection, termination-specific electronic states and device performance.</p><a class="inline-link" href="publications.html#publication-termination">Related manuscript <span aria-hidden="true">↗</span></a></div>
+
+          </div>
+        </details>
+
+        <details class="research-item" open>
+          <summary>
+            <span class="project-number">02</span>
+            <div class="project-summary"><span class="eyebrow project-category">Device scaling</span><h3>When the edges take over</h3><p>Width scaling, edge leakage and injection barriers in MoS₂ nanoribbon FETs.</p></div>
+            <svg class="project-icon" viewbox="0 0 100 70" aria-hidden="true"><path d="M8 15h84M8 55h84"></path><path class="icon-muted" d="M8 28h84M8 42h84"></path><path d="m33 9-6 6 6 6m34 28 6 6-6 6"></path><circle cx="14" cy="15" r="3"></circle><circle cx="86" cy="55" r="3"></circle></svg>
+            <span class="expand-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="project-detail">
+            <div><h4>The question</h4><p>As a channel becomes a nanoribbon, how does transport at its edges change the off-state leakage and the limits of lateral scaling?</p></div>
+            <div><h4>My contribution</h4><p>Introduced the nanoribbon injection barrier to explain the onset of edge-dominated leakage and connect geometry with device switching behavior.</p><a class="inline-link" href="publications.html#publication-nib">Related manuscript <span aria-hidden="true">↗</span></a></div>
+
+          </div>
+        </details>
+
+        <details class="research-item" open>
+          <summary>
+            <span class="project-number">03</span>
+            <div class="project-summary"><span class="eyebrow project-category">Carrier injection</span><h3>Engineering a cold-metal source</h3><p>Edge-engineered cold-metal injection sources for 2D FETs.</p></div>
+            <svg class="project-icon" viewbox="0 0 100 70" aria-hidden="true"><path class="icon-muted" d="M14 18h24m-24 17h24m-24 17h24M62 18h24m-24 17h24m-24 17h24"></path><path d="M43 12v46m14-46v46M16 35h68m-7-6 7 6-7 6"></path><circle cx="27" cy="35" r="3"></circle></svg>
+            <span class="expand-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="project-detail">
+            <div><h4>The question</h4><p>How can edge engineering turn zigzag MoS₂ nanoribbons into intrinsic cold-metal injection sources for 2D transistors?</p></div>
+            <div><h4>My contribution</h4><p>Proposed edge-engineered MoS₂ nanoribbon sources and evaluated their electron-filtering behavior through a collaboration with a group at Peking University Shenzhen.</p><a class="inline-link" href="publications.html#publication-cold">Conference contribution <span aria-hidden="true">↗</span></a></div>
+
+          </div>
+        </details>
+
+        <details class="research-item" open>
+          <summary>
+            <span class="project-number">04</span>
+            <div class="project-summary"><span class="eyebrow project-category">Experimental devices</span><h3>A sensor that sounds the alarm</h3><p>Integrating NO₂ sensing, self-heating and an audible alarm.</p></div>
+            <svg class="project-icon" viewbox="0 0 100 70" aria-hidden="true"><rect x="12" y="16" width="51" height="38" rx="2"></rect><path d="M23 22v26m10-26v26m10-26v26m10-26v26m20-19q8 6 0 12m8-19q15 13 0 26"></path></svg>
+            <span class="expand-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="project-detail">
+            <div><h4>The question</h4><p>How can a gas sensor combine reliable detection, temperature control and a direct warning signal in one device?</p></div>
+            <div><h4>My contribution</h4><p>Built the gas-sensing test and data-acquisition platform, fabricated MoS₂/laser-induced graphene devices, and evaluated temperature and humidity effects in collaboration with a group at Tsinghua University.</p><a class="inline-link" href="https://doi.org/10.1016/j.cej.2021.131079" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a></div>
+
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+    <footer class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner container">
+        <div><p class="eyebrow">Keep the conversation going</p><h2 id="contact-title">Good questions<br>start a <em>conversation.</em></h2><p>I welcome conversations about semiconductor device R&amp;D, advanced transistors and research collaborations.</p></div>
+        <div class="contact-actions"><a class="contact-email" href="mailto:zhirong.peng@connect.ust.hk">zhirong.peng@connect.ust.hk <span aria-hidden="true">↗</span></a><button type="button" id="copy-email" class="copy-email" hidden><svg viewbox="0 0 18 18" aria-hidden="true"><rect x="6" y="6" width="9" height="9" rx="1"></rect><path d="M11 3H3v8"></path></svg><span id="copy-email-label">Copy email</span></button><span class="sr-only" id="copy-status" role="status"></span><div class="contact-links"><a data-cv-link href="mailto:zhirong.peng@connect.ust.hk?subject=CV%20request"><span data-cv-label>Request CV</span> <span aria-hidden="true">↗</span></a><a data-social-link="linkedin" hidden>LinkedIn <span aria-hidden="true">↗</span></a><a data-social-link="scholar" href="https://scholar.google.com/citations?user=4kMQsrkAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a></div></div>
+      </div>
+      <div class="site-footer container"><span>© <span id="copyright-year">2026</span> Zhirong Peng</span><span class="footer-thought">A little closer to the edge.</span><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+    </footer>
+</body>
+</html>

@@ -192,7 +192,11 @@ details[open] .expand-icon::after { transform: rotate(0deg); }
 .publication-authors { font-size: var(--text-body); line-height: 1.85; color: var(--muted); margin-top: 9px; }
 .publication-authors strong { font-weight: 700; color: var(--ink); }
 .publication-authors sup { font-size: var(--text-min); }
+.publication-authors .corresponding-mark,
+.publication-authors .author-symbols { font-size: .72em; line-height: 0; vertical-align: super; margin-left: .08em; }
 .equal-contribution, .publication-link-note { font-size: var(--text-min); color: var(--muted); margin-top: 5px; }
+.publication-symbol-note { font-size: var(--text-small); color: var(--muted); margin-top: 22px; }
+.publication-symbol-note sup { font-size: .72em; line-height: 0; vertical-align: super; }
 .publication-arrow { justify-self: end; display: grid; place-items: center; width: 38px; height: 38px; border: 1px solid var(--line-strong); border-radius: 50%; margin-top: 6px; font-size: 22px; line-height: 1; transition: background .2s; }
 .publication-arrow:hover { background: var(--hover-surface); }
 .publication-pending { font-size: var(--text-min); color: var(--muted); padding-top: 11px; text-align: right; }
